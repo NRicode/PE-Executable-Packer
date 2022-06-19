@@ -1,6 +1,8 @@
 # PE / Executable Packer
  Simple software packer for x32 and x64 executable
-
+ 
+ <img src="https://github.com/NRicode/PE-Executable-Packer/blob/main/demo/screenshot.png" width= "auto" height= "200px"></img>
+ 
 # Notice
 This PE packer **DOES NOT encrypt** the payload to prevent misuse. This is simply a POC of a PE loader that can load & execute another executable in the same address space as the loader. Usually this is what people call "Crypter", a tool that can encrypt another malware to bypass static analysis. This can also be improved to have anti VM, anti debugging or anti analysis feature.
 
